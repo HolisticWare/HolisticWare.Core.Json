@@ -35,7 +35,7 @@
   </PropertyGroup>
   <ItemGroup>
     <!-- A reference to the entire .NET Framework is automatically included -->
-    <ProjectReference Include="..\HolisticWare.Core.Reflection\HolisticWare.Core.Reflection.csproj">
+    <ProjectReference Include="..\..\HolisticWare.Core.Reflection\HolisticWare.Core.Reflection\HolisticWare.Core.Reflection.csproj">
       <Project>{62A6F607-1190-4CF7-A62A-BF25235F632F}</Project>
       <Name>HolisticWare.Core.Reflection</Name>
     </ProjectReference>
