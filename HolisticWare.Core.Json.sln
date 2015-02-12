@@ -1,14 +1,9 @@
+﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 2013
+# Visual Studio 2012
 VisualStudioVersion = 12.0.30723.0
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "HolisticWare.Core", "HolisticWare.Core", "{29520B45-1C99-4685-9FFE-900562447498}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HolisticWare.Core", "..\HolisticWare.Core\HolisticWare.Core\HolisticWare.Core.csproj", "{9F05BFFD-2F7C-49C5-A659-4597F5A2EF08}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HolisticWare.Core.Json", "HolisticWare.Core.Json\HolisticWare.Core.Json.csproj", "{6AE0B665-EDCA-4033-A2D1-F2DADDB44829}"
-EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "HolisticWare.Core.Reflection", "HolisticWare.Core.Reflection", "{01F2E59A-48CF-4B01-B13A-4D94A842F37D}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{E1C1CF6A-3B1D-496C-8424-09CD13B8993B}"
 	ProjectSection(SolutionItems) = preProject
@@ -17,25 +12,26 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{E1C1CF
 		.nuget\NuGet.targets = .nuget\NuGet.targets
 	EndProjectSection
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnitTests.HolisticWare.Core.Json", "UnitTests.HolisticWare.Core.Json\UnitTests.HolisticWare.Core.Json.csproj", "{9E27FEE4-6DB3-46D3-B0E9-DCBC28D16FEE}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{9F05BFFD-2F7C-49C5-A659-4597F5A2EF08}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{9F05BFFD-2F7C-49C5-A659-4597F5A2EF08}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{9F05BFFD-2F7C-49C5-A659-4597F5A2EF08}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{9F05BFFD-2F7C-49C5-A659-4597F5A2EF08}.Release|Any CPU.Build.0 = Release|Any CPU
 		{6AE0B665-EDCA-4033-A2D1-F2DADDB44829}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{6AE0B665-EDCA-4033-A2D1-F2DADDB44829}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6AE0B665-EDCA-4033-A2D1-F2DADDB44829}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6AE0B665-EDCA-4033-A2D1-F2DADDB44829}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9E27FEE4-6DB3-46D3-B0E9-DCBC28D16FEE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9E27FEE4-6DB3-46D3-B0E9-DCBC28D16FEE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9E27FEE4-6DB3-46D3-B0E9-DCBC28D16FEE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9E27FEE4-6DB3-46D3-B0E9-DCBC28D16FEE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
-	EndGlobalSection
-	GlobalSection(NestedProjects) = preSolution
-		{9F05BFFD-2F7C-49C5-A659-4597F5A2EF08} = {29520B45-1C99-4685-9FFE-900562447498}
 	EndGlobalSection
 EndGlobal
